@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Salário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formulario">
+        <form id="calculatorForm">
+            <h3>Calculadora de Salário</h3>
+            <div class="input-group">
+                <label for="horasTrabalhadas">Horas Trabalhadas:</label>
+                <input type="number" id="horasTrabalhadas" required>
+            </div>
+            <div class="input-group">
+                <label for="valorPorHora">Valor por Hora (R$):</label>
+                <input type="number" id="valorPorHora" required>
+            </div>
+            <button type="button" onclick="calculateSalary()">Calcular</button>
+            <input type="text" id="display" readonly>
+        </form>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
