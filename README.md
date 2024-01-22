@@ -12,20 +12,18 @@ Node.js: Certifique-se de ter o Node.js instalado na sua máquina.
 Siga estes passos para configurar e executar o projeto localmente:
 
 ## `1. Clonar o Repositório``
-bash
-Copy code
+
 git clone https://github.com/seu-usuario/calculadora-salario.git
+<br>
 cd calculadora-salario
 
 ## `2. Instalar Dependências``
-bash
-Copy code
 npm install
 
 ## `3. Executar Testes``
-bash
-Copy code
+
 npm test
+<br>
 Isso executará os testes unitários usando Jest. Certifique-se de que todos os testes passam antes de realizar modificações no código.
 
 ## `4. Desenvolvimento``
